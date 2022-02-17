@@ -36,7 +36,6 @@ body{
 
 .item{
     display: inline-block;
-    margin: 0 0.1rem;
     position: relative;
 }
 
@@ -44,8 +43,45 @@ body{
     width: 280px;
 }
 
+.hide{
+    visibility: hidden;
+    position: absolute; 
+    z-index: 10;
+    left: 0px;
+}
+
+.item:hover .hide{
+    visibility: visible;
+}
+
+/* prezzo*/
+
 .red_prize{
     text-align: left;
     color: var(--bg-sconto);
     display: inline-block;
 }
+
+.old_prize{
+    display: inline-block;
+    text-decoration: line-through;
+}
+
+/* blocchi sovrapposti*/
+
+.heart_block{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+    right: 0px;
+    top: 20px;
+}
+
+.heart{
+    line-height: 30px;
+    vertical-align: middle;
+}
+
