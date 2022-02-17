@@ -30,6 +30,7 @@ body{
 .info_item{
     font-size:18px;
     text-align: left;
+    font-weight: bold;
 }
 
 /* singolo prodotto*/
@@ -85,3 +86,22 @@ body{
     vertical-align: middle;
 }
 
+.blocco_sconto{
+    position: absolute;
+    z-index: 40;
+    left: 0px;
+    bottom: 80px;
+}
+
+.sconto{
+    background-color: var(--bg-sconto);
+    color: white;
+    padding: 0.2rem;
+}
+
+.green{
+    background-color: var(--bg-green);
+    color: white;
+    padding: 0.2rem;
+    left: 90px;
+}
