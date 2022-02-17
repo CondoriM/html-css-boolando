@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-sconto: #e40439;
+    --bg-green: #00844d;
+}
+
+body{
+    background-color: white;
+}
+
+/* sezione prodotti*/
+
+.products{
+    width: 1200px;
+    margin: auto;
+    padding:1rem 4rem 0rem;
+    text-align: center;
+}
+
+.marca{
+    font-size: 12px;
+    text-align: left;
+}
+
+.info_item{
+    font-size:18px;
+    text-align: left;
+}
+
+/* singolo prodotto*/
+
+.item{
+    display: inline-block;
+    margin: 0 0.1rem;
+    position: relative;
+}
+
+.foto{
+    width: 280px;
+}
+
+.red_prize{
+    text-align: left;
+    color: var(--bg-sconto);
+    display: inline-block;
+}
